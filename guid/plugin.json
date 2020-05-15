@@ -1,0 +1,24 @@
+{
+    "pluginName": "GUID",
+    "description": "生成GUID&UUID复制到剪切板",
+    "author": "卡子拉的柠檬",
+    "homepage": "https://github.com/binjoo",
+    "version": "0.0.1",
+    "preload": "preload.js",
+    "logo": "logo.png",
+    "platform": [
+        "win32",
+        "darwin",
+        "linux"
+    ],
+    "features": [
+        {
+            "code": "guid",
+            "explain": "生成GUID&UUID复制到剪切板",
+            "cmds": [
+                "guid",
+                "uuid"
+            ]
+        }
+    ]
+}
